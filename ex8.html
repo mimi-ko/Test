@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get Value from Textarea in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            var comment = $.trim($("#comment").val());
+            if(comment != ""){
+                alert(comment);
+            }
+        });
+        
+    });
+</script>
+</head>
+<body>
+    <textarea id="comment" rows="5" cols="50"></textarea>
+    <p><button type="button">Get Value</button></p>
+</body>
+</html>

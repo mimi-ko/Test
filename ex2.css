@@ -1,0 +1,53 @@
+@font-face{
+  font-family: bb;
+  src:url(Dancing_Script/dan.ttf);
+}
+.nav a{
+	font-size: 30px;
+	color:blue;
+	text-decoration: none;
+}
+#ig{
+	font-family: bb;
+}
+.nav{
+	padding:20px;
+	
+}
+.banner{
+	background-color: #D8D8D8;
+}
+#logout{
+	float:right;
+}
+.banner img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 100px;
+
+}
+#border{
+	border :solid 1px ;
+	/*margin-right: 50%;*/
+	text-transform: uppercase;
+}
+.grid1{
+	margin-top: 50px;
+	margin-right: 400px;
+	font-size: 20px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto
+}
+.grid img{
+	width: 400px;
+	height: 400px;
+	grid-gap: 20px;
+}
+.banner{
+	display: grid;
+	grid-template-columns: auto auto;
+}

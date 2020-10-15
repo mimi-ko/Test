@@ -1,0 +1,15 @@
+1. SELECT name as STUFF_NAME FROM `staffs` 
+2. SELECT department_id FROM `staffs` 
+3. SELECT * FROM `staffs` ORDER by name 
+4. SELECT * FROM `staffs` ORDER BY name AND department_id DESC
+5. SELECT * FROM `staffs` WHERE name='Kay Thwe' OR name='Thae Su Wai'
+6.
+7.SELECT * FROM `staffs` WHERE name LIKE a%
+8. SELECT name FROM `staffs` WHERE name LIKE %e
+9. SELECT name FROM `staffs` WHERE salary BETWEEN 100000 AND 500000
+10.
+11. SELECT * FROM `departments` WHERE name='Admin'
+12. SELECT * FROM `departments` WHERE name='Manager'
+13. SELECT * FROM `staffs` LIMIT 5
+14. SELECT MAX(salary) FROM staffs
+15. 
